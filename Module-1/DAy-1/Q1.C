@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int findMax(int num1, int num2)
+int findMax(int operend1, int operend2)
 {
-    if (num1 > num2) {
-        return num1;
+    if (operend1 > operend2) {
+        return operend1;
     } else {
-        return num2;
+        return operen2;
     }
 }
 
 int main() {
-    int num1, num2;
+    int operend1, operend2;
     printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
-    int max = findMax(num1, num2);
+    scanf("%d %d", &operend1, &operend2);
+    int max = findMax(operend1, operend2);
     printf("The biggest number is: %d\n", max);
     return 0;
 }
